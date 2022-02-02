@@ -1,0 +1,49 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+
+.middle{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.logo{
+    width: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-page-image{
+    display: block;
+   margin-top: 2%;
+    object-fit: contain;
+    width: 100%;
+    z-index: 10;
+    position:absolute;
+    height: 300px;
+    
+}
+
+.landing-page-section{
+    position: relative;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);   
+    z-index: -1;
+    height: 100vh;
+}
+
+.waves{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    
+
+}
