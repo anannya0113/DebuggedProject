@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-logo{
+    display: inline;
+    width: 25%;
+
+}
+
+.footer-links{
+    display: inline;
+    width: 25%;
+}
+
+.footer-work{
+    display: inline;
+    width: 25%;
+
+}
+
+.footer-contact{
+    display: inline;
+    width: 25%;
+
+}
