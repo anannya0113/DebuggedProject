@@ -6,17 +6,23 @@
 .footer-container{
     display: flex;
     flex-direction: row;
+    background-color: #323232;
+    color: white;
 }
 
 .footer-logo{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25%;
-
+    
 }
 
 .footer-links{
     display: inline;
     width: 25%;
+    
 }
 
 .footer-work{
@@ -30,3 +36,23 @@
     width: 25%;
 
 }
+
+.footer-logo img{
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.social-icon-container{
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+
+}
+
+.social-icon-container li{
+    margin-right: 12px;
+}
+
+
+
