@@ -6,22 +6,35 @@
 .footer-container{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     color: white;
     background-color: #323232;
 }
 
 .footer-logo img{
     height: 70px;
+=======
+    background-color: #323232;
+    color: white;
+>>>>>>> 8dd5c712dcfbd7b73cd9baf671666d904279087a
 }
 
 .footer-logo{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 25%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 8dd5c712dcfbd7b73cd9baf671666d904279087a
 }
 
 .footer-links{
     display: inline;
     width: 25%;
+    
 }
 
 .footer-work{
@@ -36,6 +49,15 @@
 
 }
 
+<<<<<<< HEAD
+=======
+.footer-logo img{
+    width: 100px;
+    object-fit: contain;
+
+}
+
+>>>>>>> 8dd5c712dcfbd7b73cd9baf671666d904279087a
 .social-icon-container{
     text-decoration: none;
     list-style: none;
@@ -47,3 +69,8 @@
     margin-right: 12px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8dd5c712dcfbd7b73cd9baf671666d904279087a
