@@ -6,12 +6,17 @@
 .footer-container{
     display: flex;
     flex-direction: row;
+    color: white;
+    background-color: #323232;
+}
+
+.footer-logo img{
+    height: 70px;
 }
 
 .footer-logo{
     display: inline;
     width: 25%;
-
 }
 
 .footer-links{
@@ -30,3 +35,15 @@
     width: 25%;
 
 }
+
+.social-icon-container{
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+
+}
+
+.social-icon-container li{
+    margin-right: 12px;
+}
+
